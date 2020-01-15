@@ -20,6 +20,7 @@
   "standard-version": {
     "preset": "conventional-changelog-factorio",
     "infile": "changelog.txt",
+    "header": "",
     "tag-prefix": "",
     "types": [
       {
