@@ -1,20 +1,20 @@
 {
   "name": "more-turrets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "license": "MIT",
   "devDependencies": {
+    "conventional-recommended-bump": "^6.0.5",
     "cz-conventional-changelog": "^3.0.2",
-    "husky": "^4.0.9"
+    "husky": "^4.0.9",
+    "standard-version": "^7.0.1"
+  },
+  "scripts": {
+    "release": "standard-version"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   }
 }
