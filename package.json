@@ -4,7 +4,6 @@
   "private": true,
   "license": "MIT",
   "devDependencies": {
-    "conventional-recommended-bump": "^6.0.5",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^4.0.9",
     "standard-version": "^7.0.1"
@@ -16,5 +15,13 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "standard-version": {
+    "bumpFiles": [
+      {
+        "filename": "info.json",
+        "type": "json"
+      }
+    ]
   }
 }
