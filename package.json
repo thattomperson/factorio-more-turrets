@@ -1,10 +1,10 @@
 {
   "name": "more-turrets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "license": "MIT",
   "devDependencies": {
-    "conventional-changelog-factorio": "0.0.1",
+    "conventional-changelog-factorio": "0.0.2",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^4.0.9",
     "standard-version": "^7.1.0"
