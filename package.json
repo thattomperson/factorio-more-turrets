@@ -1,6 +1,6 @@
 {
   "name": "more-turrets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "license": "MIT",
   "devDependencies": {
@@ -18,25 +18,49 @@
   },
   "standard-version": {
     "types": [
-      {"type": "feat", "section": "Features"},
-      {"type": "fix", "section": "Bug Fixes"},
-      {"type": "chore", "section": "Others"},
-      {"type": "docs", "section": "Docs"},
-      {"type": "style", "section": "Others"},
-      {"type": "refactor", "section": "Others"},
-      {"type": "perf", "section": "Others"},
-      {"type": "test", "section": "Others"}
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "chore",
+        "section": "Others"
+      },
+      {
+        "type": "docs",
+        "section": "Docs"
+      },
+      {
+        "type": "style",
+        "section": "Others"
+      },
+      {
+        "type": "refactor",
+        "section": "Others"
+      },
+      {
+        "type": "perf",
+        "section": "Others"
+      },
+      {
+        "type": "test",
+        "section": "Others"
+      }
     ],
     "bumpFiles": [
       {
         "filename": "info.json",
         "type": "json"
       },
-      { 
+      {
         "filename": "package.json",
         "type": "json"
       },
-      { 
+      {
         "filename": "package-lock.json",
         "type": "json"
       }
