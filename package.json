@@ -1,0 +1,14 @@
+{
+  "name": "more-turrets",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
