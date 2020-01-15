@@ -1,0 +1,4 @@
+factorio_mod_path = "/Users/thomasalbrighton/Library/Application Support/factorio/mods"
+factorio_run_path = "/Users/thomasalbrighton/Library/Application\ Support/Steam/steamapps/common/Factorio/factorio.app/Contents/MacOS/factorio"
+
+faketorio_path = "/usr/local/share/lua/5.3/faketorio"

@@ -1,0 +1,1 @@
+require("prototypes.sniper-turret")
