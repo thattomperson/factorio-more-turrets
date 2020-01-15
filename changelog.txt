@@ -3,11 +3,4 @@
 Version: 0.1.1
 Date: 2020-01-15
   Bug Fixes:
-    - updated to the correct changelog format ([e4e3340](https://github.com/thattomperson/factorio-more-turrets/commit/e4e3340f44113ea97b7913c41a2bd148b869dc52))
-
-
----------------------------------------------------------------------------------------------------
-Version: 0.1.0
-Date: 2020-01-15
-  Features:
-    - the best thing ([aa7b301](https://github.com/thattomperson/factorio-more-turrets/commit/aa7b30149ad12570da6a06f936eadbf1cfc27b02))
+    - updated to the correct changelog format
