@@ -19,8 +19,7 @@ sniperTurret.minable = {
 
 sniperTurret.attack_parameters.range = 35
 sniperTurret.attack_parameters.min_range = 10
-sniperTurret.attack_parameters.cooldown = 160
-sniperTurret.attack_parameters.cooldown_deviation = 20
+sniperTurret.attack_parameters.cooldown = 120
 sniperTurret.attack_parameters.damage_modifier = 80
 sniperTurret.attack_parameters.turn_range = 0.20
 sniperTurret.attack_parameters.ammo_consumption_modifier = 4
