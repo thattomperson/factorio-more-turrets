@@ -17,11 +17,13 @@ sniperTurret.minable = {
   result = "sniper-turret"
 }
 
-sniperTurret.attack_parameters.range = 30
+sniperTurret.attack_parameters.range = 35
 sniperTurret.attack_parameters.min_range = 10
-sniperTurret.attack_parameters.cooldown = 180
+sniperTurret.attack_parameters.cooldown = 160
+sniperTurret.attack_parameters.cooldown_deviation = 20
 sniperTurret.attack_parameters.damage_modifier = 80
-
+sniperTurret.attack_parameters.turn_range = 0.20
+sniperTurret.attack_parameters.ammo_consumption_modifier = 4
 
 
 local recipe = table.deepcopy(data.raw.recipe["gun-turret"])
