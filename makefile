@@ -12,6 +12,7 @@ test: target/$(NAME)_$(VERSION).zip
 	$(FACTORIO_APP) --load-game $(DATA_FOLDER)/saves/_autosave2.zip
 .PHONY: test
 
+target: target/$(NAME)_$(VERSION).zip;
 
 target/$(NAME)_$(VERSION).zip:
 	faketorio package
