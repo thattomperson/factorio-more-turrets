@@ -7,7 +7,7 @@
     "conventional-changelog-factorio": "0.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^4.0.9",
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.0"
   },
   "scripts": {
     "release": "standard-version"
